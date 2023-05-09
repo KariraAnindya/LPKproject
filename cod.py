@@ -43,7 +43,7 @@ def cod_calculator(app_mode):
         st.header("Calculate cod")
         st.write("Masukkan nilai untuk menghitung COD")
 
-        # Add your input fields and calculations for pH here
+        # Add your input fields and calculations for cod here
 
 app_mode = st.sidebar.selectbox("Pilih mode", ["Calculate COD", "Calculate cod"])
 if app_mode == "Calculate COD":
